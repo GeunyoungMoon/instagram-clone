@@ -3,6 +3,7 @@
 <head>
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,23 +22,26 @@
     </div>
     <div id="profile">
         <div id="profile_pic">
-        <img class="circle_pic" src="image/profile.jpg"/>
+            <img class="circle_pic" src="image/profile.jpg"/>
         </div>
         <div id="profile_info">
-            <div id="id">GeunyoungMoon<i class="fas fa-cog"></i></div>
+            <div id="id">
+                <span>GeunyoungMoon</span>
+                <i class="fas fa-cog"></i>
+            </div>
             <button>프로필 편집</button>
         </div>
     </div>
     <div>
         <p>
-            <strong>
-                문근영 (Geunyoung Moon)<br>
-            </strong>
-                학생
+            <strong id="userInfo">
+                문근영 (Geunyoung Moon)
+            </strong><br>
+                <span id="summary">학생</span>
         </p>
-        <p>
+        <p id="profileDetail">
             <a href="https://github.com/GeunyoungMoon">
-                GeunyoungMoon.github.com
+                https://github.com/GeunyoungMoon
             </a>
         </p>
     </div>    
